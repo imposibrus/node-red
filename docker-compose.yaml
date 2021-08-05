@@ -1,0 +1,14 @@
+version: '3'
+services:
+  node-red:
+    image: nodered/node-red:2.0.3
+    restart: always
+    init: true
+    network_mode: host
+#    ports:
+#      - 1880:1880
+    container_name: node-red
+    volumes:
+      - ./data:/data
+    env_file: .env
+

@@ -1,0 +1,44 @@
+{
+    "_": {
+        "editor": {
+            "view": {
+                "view-show-grid": true,
+                "view-snap-grid": true,
+                "view-grid-size": "20",
+                "view-node-status": true,
+                "view-node-show-label": true,
+                "view-show-tips": true
+            },
+            "context": {
+                "flowRefresh": true
+            },
+            "keymap": {
+                "core:deploy-flows": {
+                    "scope": "*",
+                    "key": "ctrl-s"
+                },
+                "core:redo": {
+                    "scope": "red-ui-workspace",
+                    "key": "ctrl-shift-z"
+                }
+            }
+        },
+        "menu-deploymenu-item-flow": false,
+        "menu-deploymenu-item-full": false,
+        "menu-deploymenu-item-node": true
+    },
+    "admin": {
+        "editor": {
+            "view": {
+                "view-show-grid": true,
+                "view-snap-grid": true,
+                "view-grid-size": "20",
+                "view-node-status": true,
+                "view-node-show-label": true,
+                "view-show-tips": true
+            }
+        },
+        "menu-deploymenu-item-node": true,
+        "menu-deploymenu-item-full": false
+    }
+}

@@ -1,0 +1,8 @@
+.env
+data/context
+node_modules
+data/homekit-persist
+data/.sessions.json
+data/*.backup
+data/.config.runtime.json
+data/.npm
