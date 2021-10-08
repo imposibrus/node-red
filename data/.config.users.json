@@ -36,6 +36,12 @@
                 "view-node-status": true,
                 "view-node-show-label": true,
                 "view-show-tips": true
+            },
+            "keymap": {
+                "core:deploy-flows": {
+                    "scope": "*",
+                    "key": "ctrl-s"
+                }
             }
         },
         "menu-deploymenu-item-node": true,
