@@ -4,3 +4,8 @@ cp example.env .env
 docker-compose up -d
 ```
 
+To generate new hash for password:
+```bash
+echo 'your-password-here' | docker-compose exec -T node-red node-red admin hash-pw
+```
+
