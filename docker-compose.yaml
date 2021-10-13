@@ -8,6 +8,7 @@ services:
 #    ports:
 #      - 1880:1880
     container_name: node-red
+    user: "${UID}:${GID}"
     volumes:
       - ./data:/data
     env_file: .env
