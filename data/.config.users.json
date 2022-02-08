@@ -35,13 +35,19 @@
                 "view-grid-size": "20",
                 "view-node-status": true,
                 "view-node-show-label": true,
-                "view-show-tips": true
+                "view-show-tips": true,
+                "view-show-welcome-tours": true,
+                "view-store-position": true,
+                "view-store-zoom": true
             },
             "keymap": {
                 "core:deploy-flows": {
                     "scope": "*",
                     "key": "ctrl-s"
                 }
+            },
+            "tours": {
+                "welcome": "2.2.0"
             }
         },
         "menu-deploymenu-item-node": true,
