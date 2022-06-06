@@ -1,7 +1,7 @@
 {
     "node-red": {
         "name": "node-red",
-        "version": "2.2.0",
+        "version": "2.2.2",
         "local": false,
         "user": false,
         "nodes": {
@@ -903,6 +903,92 @@
                 "user": false,
                 "module": "node-red-contrib-http-proxy",
                 "file": "/data/node_modules/node-red-contrib-http-proxy/http_proxy.js"
+            }
+        }
+    },
+    "node-red-contrib-alice": {
+        "name": "node-red-contrib-alice",
+        "version": "0.6.11",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "alice": {
+                "name": "alice",
+                "types": [
+                    "alice-service",
+                    "alice-device"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice.js"
+            },
+            "alice-onoff": {
+                "name": "alice-onoff",
+                "types": [
+                    "On_Off"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-onoff.js"
+            },
+            "alice-togle": {
+                "name": "alice-togle",
+                "types": [
+                    "Toggle"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-togle.js"
+            },
+            "alice-range": {
+                "name": "alice-range",
+                "types": [
+                    "Range"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-range.js"
+            },
+            "alice-color": {
+                "name": "alice-color",
+                "types": [
+                    "Color"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-color.js"
+            },
+            "alice-mode": {
+                "name": "alice-mode",
+                "types": [
+                    "Mode"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-mode.js"
+            },
+            "alice-sensor": {
+                "name": "alice-sensor",
+                "types": [
+                    "Sensor"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-alice",
+                "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-sensor.js"
             }
         }
     }

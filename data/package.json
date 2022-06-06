@@ -4,6 +4,7 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red-contrib-alice": "~0.6.11",
         "node-red-contrib-credentials": "~0.2.1",
         "node-red-contrib-home-assistant-websocket": "~0.33.1",
         "node-red-contrib-homebridge-automation": "0.0.79",
