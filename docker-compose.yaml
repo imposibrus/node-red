@@ -5,12 +5,19 @@ services:
     restart: always
     init: true
     network_mode: host
-#    ports:
-#      - 1880:1880
     container_name: node-red
     user: "${UID}:${GID}"
     volumes:
       - ./data:/data
       - /var/run/dbus:/var/run/dbus
     env_file: .env
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.node-red.rule=Host(`$DOMAIN`)"
+      - "traefik.http.routers.node-red-secure.rule=Host(`$DOMAIN`)"
+      - "traefik.http.routers.node-red-secure.tls.certresolver=default"
+      - "traefik.http.routers.node-red-secure.service=node-red"
+      - "traefik.http.services.node-red.loadbalancer.server.port=1880"
+
+
 
