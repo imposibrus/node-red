@@ -1,7 +1,7 @@
 version: '3'
 services:
   node-red:
-    image: nodered/node-red:2.2.2
+    build: .
     restart: always
     init: true
     network_mode: host
@@ -11,5 +11,6 @@ services:
     user: "${UID}:${GID}"
     volumes:
       - ./data:/data
+      - /var/run/dbus:/var/run/dbus
     env_file: .env
 

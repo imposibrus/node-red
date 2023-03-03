@@ -6,10 +6,12 @@
     "dependencies": {
         "node-red-contrib-alice": "~0.6.11",
         "node-red-contrib-credentials": "~0.2.1",
+        "node-red-contrib-generic-ble": "~4.0.3",
         "node-red-contrib-home-assistant-websocket": "~0.33.1",
         "node-red-contrib-homebridge-automation": "0.0.79",
         "node-red-contrib-homekit-bridged": "~1.2.0",
         "node-red-contrib-http-proxy": "github:imposibrus/node-red-contrib-http-proxy",
+        "node-red-contrib-noble-bluetooth": "~0.9.1",
         "node-red-contrib-wirenboard": "~3.2.4",
         "node-red-dashboard": "~2.28.1",
         "node-red-node-pi-gpio": "~1.2.3",

@@ -991,5 +991,48 @@
                 "file": "/data/node_modules/node-red-contrib-alice/nodes/alice-sensor.js"
             }
         }
+    },
+    "node-red-contrib-generic-ble": {
+        "name": "node-red-contrib-generic-ble",
+        "version": "4.0.3",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "generic-ble": {
+                "name": "generic-ble",
+                "types": [
+                    "Generic BLE in",
+                    "Generic BLE out",
+                    "Generic BLE"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-generic-ble",
+                "file": "/data/node_modules/node-red-contrib-generic-ble/dist/generic-ble.js"
+            }
+        }
+    },
+    "node-red-contrib-noble-bluetooth": {
+        "name": "node-red-contrib-noble-bluetooth",
+        "version": "0.9.1",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "bluetooth": {
+                "name": "bluetooth",
+                "types": [
+                    "BLE scanner",
+                    "BLE device",
+                    "BLE in",
+                    "BLE out"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-noble-bluetooth",
+                "file": "/data/node_modules/node-red-contrib-noble-bluetooth/bluetooth.js"
+            }
+        }
     }
 }
